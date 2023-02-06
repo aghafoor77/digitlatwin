@@ -1,0 +1,108 @@
+ACC{
+  "controller" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+  "type" : [ "KeyAgreement" ],
+  "@context" : [ "https://www.w3.org/ns/did/v1" ],
+  "id" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+  "claims" : {
+    "didcom" : "did:veid:d687e81acd3f798f35b84a49cd941e95818a683ea8e923d9e22decf287d89795",
+    "type" : "KeyAgreement",
+    "controller" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+    "key" : "DikuZtJxnZSJaRfOCar832Af9WW44Ny63Fu/vOalB46iADzWySX/7ifeoLp1P8+5NuYg4U/QGgfsk8Bq3yKCILCUQb9VNlYtZ+nou3HT8z2//UDylN9CJjoIg6uOLThlCADsl/f68ipEWO4O/v9u4e66ykwbxtpe/5zR63TCI3AwPQpnnE1BEaKmimp0JtatYVXz4wCFpuQT+UPsTS01YuQN/xcDUTmMCAiBuLPy6WBKmWydP4Xf2HegF1L8uDQmfhMgaUngFjv8ofUKsA8CfabULqSAINsFnhfFuf50LjNmnQ97nOoC8fUlG9CCRhzm036q7Y++QyyYoJ6y4LfjMw==",
+    "random" : "lRIPoPm9Ve6b1FlCXCBvUH7JZC8T94nl"
+  },
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28#key1",
+    "publicKeyMultibase" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrAuGMeCowEit3mKcQ94LcNGFfGf8kS8WMw82UrDcDnG3vGMJNuhfUHm87vLBaQokaHiU75safa22gES5K2EEpVUi61z8e4RKJgLcJjdWbWsMYj5QbU7SxRQgp8zekcsj1c2paNRnvHWsrmeFevZSsiJV5MXU2ZEwKPhoFNAm9ceUfN66MkPqB468Ki69Jh8YBnQWYFFvBJ46omDippw3YAyShTY2eXDNwQC3MqT7aHY4QGqRKPq2pMXsgmswygBpTtUuK6dKzwDztnoKev4jMDmtUiSdZQAkRpazjsPNPBc2hcGGfk7JUEfSfqeKXJBSRk8phA6YZyQR4rU8U7LqcE8Ze9pscg2V6J5fs6"
+  } ],
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2023-02-06T16:18:43Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e62386365383663653631626563702d31",
+    "proofPurpose" : "keyAgreement",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..bC75mkb_gpWcGq6wqA3b5rmtp2XnHcbmvPQ94lt51exJIcShiVLGwKj2yKayqVbxwstW53tBtfSrJJerswhFOnFsrVwd7Z2WL1bY-i9Q7mchAUddAN3fCdR2e3T753tFSG9R7w7-afdBLCy5iRpEQZKVjFXHZgDXMezm97eaSg7YQ6tE05BhdOeuFyCw203-3WiOBt_M-jsggM3VX96igVN6EBHmzsVpN71di1bFakfcBwfQqTaFCaovjuxgxf-4IUsf64UuK8oYI7e3JokCsxCxsxBYOhGcztPnzmDseEFQ50fX1dO0d4jTMH0XQREvONmCv957ob-GlgvXOxI0fA"
+  }
+}
+ACC{
+  "controller" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+  "type" : [ "KeyAgreement" ],
+  "@context" : [ "https://www.w3.org/ns/did/v1" ],
+  "id" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+  "claims" : {
+    "didcom" : "did:veid:d88a95fa74bcca2a3b49b094d9044b321a81fe1350c83817b4674bc48e33fa64",
+    "type" : "KeyAgreement",
+    "controller" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+    "key" : "B5jLsdlvz9rUJGdPCRXmPxUiPJTFjjQiLWS2K2eMa2Y07n9AXc69UQ3ORZo08oY8HvqqQZj9SVrxnv7mjPXokiBv7XCzWA/Dt8oMjo5SmFRgEKG+7RlQbE1KKpD+l/K9UEPAOUrQWpNvQApt5WKC7Rr4O/5pl+ZWf+z3RxysOZM/qQS/IdqZOgX+lmt8MxoOInNSbm2IZgv90x7WLSxyoHdJAvvZb8ACQ0StS0mHQBbjfGM3BcN0rV0ZbTxSUyyMMh5VCdu8EMJxUXqx0cU8Hia7d7W9IImVY0qcg+De/9EzkMl8+Tb8Wo+u466n+LNyx2d1WsvBKjmMOW1UHKcESA==",
+    "random" : "pq43jLJRTzWkO2pNFH8iTAL9wrtAZMVk"
+  },
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28#key1",
+    "publicKeyMultibase" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrAuGMeCowEit3mKcQ94LcNGFfGf8kS8WMw82UrDcDnG3vGMJNuhfUHm87vLBaQokaHiU75safa22gES5K2EEpVUi61z8e4RKJgLcJjdWbWsMYj5QbU7SxRQgp8zekcsj1c2paNRnvHWsrmeFevZSsiJV5MXU2ZEwKPhoFNAm9ceUfN66MkPqB468Ki69Jh8YBnQWYFFvBJ46omDippw3YAyShTY2eXDNwQC3MqT7aHY4QGqRKPq2pMXsgmswygBpTtUuK6dKzwDztnoKev4jMDmtUiSdZQAkRpazjsPNPBc2hcGGfk7JUEfSfqeKXJBSRk8phA6YZyQR4rU8U7LqcE8Ze9pscg2V6J5fs6"
+  } ],
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2023-02-06T16:18:52Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e32666630373438343637653238702d34",
+    "proofPurpose" : "keyAgreement",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..MfjJ9iPCOwqFoc7XdyolRO7aBcMqZriDzOs2oaqErCaEYDpr11LkDMNuFSKF2y7x9nWmM-yLnQ1X2oXldyfVK8FXyt4NcV-XfhjAQUYcVHyaadLYw1zknKItQU47XF-0wuHTg96kLpm6nKBSy3ZWPUb1DUfPuTUlZzPO2_bMQH7_7YpRG9PirXtK2aezLS-Bj5tf8gv4OWIc98KDoa6TURhExYguQ3Imb76NJSJ_wd6WeAMElF0tPY-YfZveeC2kJUNnqxbsHTgO0UMUIJJOnc0NdG-OPpzkGNmrro3lW28q34_pR_cLak_eOkoWk1OwsILNiYtOhjljAOZZebJhQg"
+  }
+}
+ACC{
+  "controller" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+  "type" : [ "KeyAgreement" ],
+  "@context" : [ "https://www.w3.org/ns/did/v1" ],
+  "id" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+  "claims" : {
+    "didcom" : "did:veid:49fd3afe2b0670543d0857f3a0bbd678297001ca68aa429b8315a0f476b266e9",
+    "type" : "KeyAgreement",
+    "controller" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+    "key" : "E0AtiGwmnKDIUfgkVWp3PRoW3fUNl8UDL/FXfjgAgRuHBNIVGwrcZE3fKd+yLSXcqlOxzncu5xv37zyP4xz6Of4TuauthQkPCEToeHaOSxKN55EZyEaHe+x6yGPwo/KY+NIysJe6GwTIc7VFdXIz+deIfbFhaHf6DWCr6FioG27jb7xMEScd76TSBjfrk0/r2lnCwFvTKO3Xl9rEb0S6cgHaoeod/JyVL7jPZSnyWRmbYGpkikVyAg+VdNQ9nXqsDcFNtrTTI7Bk3uVhnOuMFhJWhzwGMmerhpvLOgbEwPfdGBHgTx5WsAYnIutmmOkY28nJjRrSED74LxihkXtMog==",
+    "random" : "6px6afc70kywBVOQHMyAs7Kx21LnzXyX"
+  },
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28#key1",
+    "publicKeyMultibase" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrAuGMeCowEit3mKcQ94LcNGFfGf8kS8WMw82UrDcDnG3vGMJNuhfUHm87vLBaQokaHiU75safa22gES5K2EEpVUi61z8e4RKJgLcJjdWbWsMYj5QbU7SxRQgp8zekcsj1c2paNRnvHWsrmeFevZSsiJV5MXU2ZEwKPhoFNAm9ceUfN66MkPqB468Ki69Jh8YBnQWYFFvBJ46omDippw3YAyShTY2eXDNwQC3MqT7aHY4QGqRKPq2pMXsgmswygBpTtUuK6dKzwDztnoKev4jMDmtUiSdZQAkRpazjsPNPBc2hcGGfk7JUEfSfqeKXJBSRk8phA6YZyQR4rU8U7LqcE8Ze9pscg2V6J5fs6"
+  } ],
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2023-02-06T16:19:01Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e38636363363335653036346234702d31",
+    "proofPurpose" : "keyAgreement",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..E8TMGUv9UNk_WQd_2X2YUI5mRdlZ4KSOPSXQd5wk6fwlXw5NYMpF-ZE28mSuydwy5fBh4MjZfWjr3BP-0fVNDReHyzQvqY6QEEDTILoooTiCo4w9g-3-yeo8eE9yTd7iUD1yH-VNG7uf9rGCu5X5LUGeLU9DEx5UHcEa9u0J-DWZfzuML7POEqkDGIAE0tRthd-fGdl9aApRpxREsU6AoceCNbkf5X_eVZCHE04rCKJIx5cdruwG5FCa91Xf3XOmmMGNEQpHKEu9q2in4iUKiBU9oV3oOGdVEfnWusL8f7XyxT2U-FyJR7ezjU6tYlAJGXZlSP2bJX_PQ9_DXMV_pw"
+  }
+}
+ACC{
+  "controller" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+  "type" : [ "KeyAgreement" ],
+  "@context" : [ "https://www.w3.org/ns/did/v1" ],
+  "id" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+  "claims" : {
+    "didcom" : "did:veid:87d72b5627f1f019b03dc146cc01a89d46467d376990c147a0516fb82d13e383",
+    "type" : "KeyAgreement",
+    "controller" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+    "key" : "FtL0NgaKap9/4MhekQn96Gr+My643N2tFWLqcCDV1WPVHBa1rKioseBKwJ8m0w2Z73weYE90ixfT3PTxvFvc1QgIiAU4bw7SuwdkwPeYyaubbGWOpTfrpTZX7cx2i5y2q7yq0eZL5hOd9eXk/uok2z8CDrDc8JLNtUHx4TFhDDDOv9vUpEQQWTSCVfEXgas2QalFtgLJX7JFTNh1QWi5Z6HbJYiog4p11zTIsbIktorASRr2Tnx0gI/Qq+Cb0VSDKFidnBZ0envH+oN/AHYt0irAMzxT/voPdKBHDY4wYX9LP6oxRGjWPOxPP93xXFH2504pOZeFP2bHPcxY1S7vhw==",
+    "random" : "t4ep08oGV2JsC15D1P5MGzd5Ug3cYL31"
+  },
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28#key1",
+    "publicKeyMultibase" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrAuGMeCowEit3mKcQ94LcNGFfGf8kS8WMw82UrDcDnG3vGMJNuhfUHm87vLBaQokaHiU75safa22gES5K2EEpVUi61z8e4RKJgLcJjdWbWsMYj5QbU7SxRQgp8zekcsj1c2paNRnvHWsrmeFevZSsiJV5MXU2ZEwKPhoFNAm9ceUfN66MkPqB468Ki69Jh8YBnQWYFFvBJ46omDippw3YAyShTY2eXDNwQC3MqT7aHY4QGqRKPq2pMXsgmswygBpTtUuK6dKzwDztnoKev4jMDmtUiSdZQAkRpazjsPNPBc2hcGGfk7JUEfSfqeKXJBSRk8phA6YZyQR4rU8U7LqcE8Ze9pscg2V6J5fs6"
+  } ],
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2023-02-06T16:19:09Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e38316331313034336435666635702d31",
+    "proofPurpose" : "keyAgreement",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..OPFw0Ads7I7hnrVbn5HXFrJoJN8diIxIegrPIefrWPiYkhbRGI6VotW-2KsWgME8pxOnqfggiNnIGJOygQmIM4_RzVGZ-6LqVJkaesS9EvNAd1tkHVv0qDXCGGFksjmOtpcbAu5JS_BNMM47WKxVvcHl_u-VaeDaZnJLmek7xbRn8IelZozJ1udECV_9NxU_LN7S60rMY-boVwFMidv8Hd23UH8A612D5xpuIeQRkFCYCIMGuCUU68jSsohXRY2yYXr2jwDTNczngzbJh3f_xlEogkNLh9x4bXrQNsxY9i5ylFzsIblmWw26hI55TbU0KXdVHhpa7Cp_-1Rh34eFCg"
+  }
+}

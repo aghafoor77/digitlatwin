@@ -1,0 +1,61 @@
+{
+  "issuer" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28",
+  "holder" : "did:veid:0xf834cddccd5ad4fec85c78b332026627a9d57a29",
+  "type" : [ "VerifiableCredentials" ],
+  "@context" : [ "https://www.w3.org/ns/did/v1" ],
+  "id" : "did:veid:d88a95fa74bcca2a3b49b094d9044b321a81fe1350c83817b4674bc48e33fa64",
+  "digest-set" : {
+    "c3" : "b9cddf36463a463197e47c4988c33c4a736eb562918d22cfdb66d91989c61a32",
+    "c4" : "e1ce3555826ff4df09b2c44db4968178a247ebd86583e6582706fc8fdd898bfa",
+    "c5" : "495bb212b0286acf3a17eab6554aa30efb0d1f06991af68b8db99d2cd700ca28",
+    "c0" : "819c7651fe0be3314811666d2c288445da5f83b871280dc25426d117dc68656f",
+    "c1" : "776710815190c6168619be03a436ec945ca563f890cbf0a5b1bb9e22eac75a75",
+    "c2" : "3e03c363d2ce26879c582a818652d5cdeab6fafa78803448c1c9b9f6586c84c0"
+  },
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "did:veid:0xa79887be7b15322419ba3a1f486da277bb03de28#key1",
+    "publicKeyMultibase" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrAuGMeCowEit3mKcQ94LcNGFfGf8kS8WMw82UrDcDnG3vGMJNuhfUHm87vLBaQokaHiU75safa22gES5K2EEpVUi61z8e4RKJgLcJjdWbWsMYj5QbU7SxRQgp8zekcsj1c2paNRnvHWsrmeFevZSsiJV5MXU2ZEwKPhoFNAm9ceUfN66MkPqB468Ki69Jh8YBnQWYFFvBJ46omDippw3YAyShTY2eXDNwQC3MqT7aHY4QGqRKPq2pMXsgmswygBpTtUuK6dKzwDztnoKev4jMDmtUiSdZQAkRpazjsPNPBc2hcGGfk7JUEfSfqeKXJBSRk8phA6YZyQR4rU8U7LqcE8Ze9pscg2V6J5fs6"
+  } ],
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2023-02-06T16:18:56Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e623732353638393266636462702d33",
+    "proofPurpose" : "verificationMethod",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..WvnhpctoG3eYHs2uhxqtkfmDOYTSqsZDE8u8VxAzHsIJBj6OwPFbMOX_mMzvJFVOYHRCkBSoL5VWCdoMHL5z_-LOEMwlPSu0rWXb9dLjNtuSFKp7P5Rm9yXPzcay1JryRSdOfUU7Qq8Y8lcS0TyurOezP1_sB8cHsyLTSuBNaveDGXggIPQCL4MbQVJqe9Ll-L793WRwwoMyTPJEWkqjleDqIPI9FoUjFCuogJl9kfz8g165Xr37_VYqqPxWtJFcxwcGZQmMr51RSUFhanQFkeMvFxJUJr-idMG0-hRiFmwg5fzbbNul_mLUiufgQU8k1DigHKIJiwn2Z3nc4mvNZA"
+  },
+  "claims" : {
+    "c3" : {
+      "salt" : "iYzxJTB3F9Zc3YwqGvUcKS3lI1OeGZgs7Acz6Phpe5AckkjaN9MVa9TpWQfulzfA",
+      "name" : "level",
+      "value" : "29"
+    },
+    "c4" : {
+      "salt" : "yBUWKRpQGQFKFMpPV76KKqxpNhXMILxtm3HMjHrNVJZV85UQDzyIijdvN0GxZbQO",
+      "name" : "quality",
+      "value" : "42"
+    },
+    "c5" : {
+      "salt" : "eHi4p4IioWWj8LHVncpHcUejC3MjqYa4YjZMgUUzhiQsj5HkO3w6VDKSSJf1N1IL",
+      "name" : "sessionID",
+      "value" : "1675700336059"
+    },
+    "c0" : {
+      "salt" : "016YELLLItBE4cOUAR7eo7dn4p9vLF5uPRfTnTYQeruOReNrzlkzPtSpB2vIQ0UJ",
+      "name" : "flowID",
+      "value" : "0"
+    },
+    "c1" : {
+      "salt" : "qkLOYCBfcSIMzgEEu9gn3YEr9W58SJszveC0UkWSfz9jeAILgRxlzIDNTiacP0iP",
+      "name" : "inflow",
+      "value" : "99"
+    },
+    "c2" : {
+      "salt" : "AVcg6RoLYZZos2EOOOAD6JhcKVUokQ0hFNuaiqIRUFo5ycc9vnkWPW2dgaece1yv",
+      "name" : "outflow",
+      "value" : "99"
+    }
+  }
+}
