@@ -17,9 +17,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-public class SchemaApplication {
+public class ACCApplication {
 
-	static Log logger = LogFactory.getLog(SchemaApplication.class);
+	static Log logger = LogFactory.getLog(ACCApplication.class);
 	static String marker = "\t===> : ";
 	
 	public static String owner= null;
@@ -30,7 +30,7 @@ public class SchemaApplication {
 		 * // TODO Auto-generated catch block e.printStackTrace(); }
 		 */
 		// ===================================
-		SpringApplication application = new SpringApplication(SchemaApplication.class);
+		SpringApplication application = new SpringApplication(ACCApplication.class);
 		application.setBannerMode(Banner.Mode.OFF);
 		application.run(args);		
 	}	
