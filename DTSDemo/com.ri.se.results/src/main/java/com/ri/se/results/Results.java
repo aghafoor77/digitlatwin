@@ -15,10 +15,10 @@ public class Results {
 	public static void main(String[] args) throws Exception {		
 		new RiverFlowManager().delete();	
 		for (int i = 1; i <= 20; i++) {
-			//new RiverFlowManager().execute(i);
+			new RiverFlowManager().execute(i);
 			new CitizenPresentation().execute();
 			new WaterPurificationCompany().execute();
-			//new RiverFlowManager().delete();			
+			new RiverFlowManager().delete();			
 		}
 	}
 	
